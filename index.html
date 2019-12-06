@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FlappyBird</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        html,body{
+            height: 100%;
+            width: 100%;
+            overflow: hidden;
+        }
+    </style>
+</head>
+<body>
+<canvas id="game_canvas" width="375" height="667"></canvas>
+<script>
+    let canvas = document.getElementById('game_canvas');
+    let context = canvas.getContext('2d');
+    context.fillStyle = 'red';
+    context.fillRect(20,20,20,30)
+</script>
+</body>
+</html>
